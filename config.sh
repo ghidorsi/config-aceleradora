@@ -6,6 +6,8 @@ curl ${VSCODE_URL} -o vscode.deb
 
 sudo dpkg -i vscode.deb
 
+code --version
+
 git --version
 
 java -version
